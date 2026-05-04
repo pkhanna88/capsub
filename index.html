@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CapSub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <span class="brand-mark">¶</span>
+      <span class="brand-name">CapSub</span>
+    </div>
+    <nav class="meta-nav">
+      <span class="meta-item"><span class="meta-label">Source</span><span class="meta-value">Yale OpenMedia</span></span>
+      <span class="meta-divider"></span>
+      <span class="meta-item"><span class="meta-label">Course</span><span class="meta-value">PHYS 200</span></span>
+      <span class="meta-divider"></span>
+      <span class="meta-item"><span class="meta-label">Lecture</span><span class="meta-value">Thermodynamics II</span></span>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="title-block">
+    <p class="kicker">Demonstration</p>
+    <h1 class="title">
+      Technical lectures, <br>
+      <em>transcribed</em> and <em>navigable</em>.
+    </h1>
+    <p class="dek">
+    Built for students. Follow along with the transcript, search for a term or phrase, and jump to the moment a classmate asked the question you also had.
+    </p>
+    <div class="stats">
+      <div class="stat"><div class="stat-num" data-target="2:36">0</div><div class="stat-lbl">Lecture duration</div></div>
+      <div class="stat"><div class="stat-num" data-target="348">0</div><div class="stat-lbl">Words in transcript</div></div>
+      <div class="stat"><div class="stat-num" data-target="4">0</div><div class="stat-lbl">High-confidence Q&amp;A interactions</div></div>
+      <div class="stat"><div class="stat-num" data-target="2400">0</div><div class="stat-lbl">Hours of MIT training audio</div></div>
+    </div>
+  </section>
+
+  <section class="player-block">
+    <div class="player-frame">
+      <video id="video" controls preload="auto" playsinline>
+        <source src="newsample.mp4" type="video/mp4">
+      </video>
+      <div id="caption-overlay" class="caption-overlay"></div>
+      <div class="frame-corners">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+      </div>
+    </div>
+    <div class="player-meta">
+      <ol class="pipeline-stages" aria-label="Pipeline stages completed">
+        <li class="stage stage-done">
+          <span class="stage-check" aria-hidden="true">✓</span>
+          <span class="stage-name">Audio extracted</span>
+        </li>
+        <li class="stage stage-done">
+          <span class="stage-check" aria-hidden="true">✓</span>
+          <span class="stage-name">Transcribed</span>
+        </li>
+        <li class="stage stage-done">
+          <span class="stage-check" aria-hidden="true">✓</span>
+          <span class="stage-name">Aligned</span>
+        </li>
+        <li class="stage stage-done">
+          <span class="stage-check" aria-hidden="true">✓</span>
+          <span class="stage-name">Diarized</span>
+        </li>
+        <li class="stage stage-done">
+          <span class="stage-check" aria-hidden="true">✓</span>
+          <span class="stage-name">Q&amp;A detected</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="content-grid">
+    <article class="transcript-column">
+      <header class="column-head">
+        <h2 class="column-title">Transcript</h2>
+        <p class="column-sub">Click to jump</p>
+        <div class="legend">
+          <span class="legend-item"><span class="dot dot-prof"></span>Professor</span>
+          <span class="legend-item"><span class="dot dot-stud"></span>Student</span>
+          <!--- <span class="legend-item"><span class="dot dot-corr"></span>Corrected</span> --->
+        </div>
+      </header>
+      <div class="search-bar">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Search the transcript…"
+          autocomplete="off"
+        >
+        <span class="search-count" id="search-count"></span>
+        <button type="button" id="search-clear" class="search-clear" aria-label="Clear search" hidden>×</button>
+      </div>
+      <div class="transcript-scroll" id="transcript-scroll">
+        <div id="transcript"></div>
+      </div>
+    </article>
+
+    <aside class="qa-column">
+      <header class="column-head">
+        <h2 class="column-title">Detected Q&amp;A</h2>
+        <p class="column-sub">Click to jump</p>
+      </header>
+      <div class="qa-list" id="qa-list"></div>
+      <button type="button" class="qa-toggle" id="qa-toggle" hidden>
+        <span id="qa-toggle-label">Show all</span>
+      </button>
+      <div class="confidence-key">
+        <p class="key-title">How confidence is assigned</p>
+        <dl>
+          <dt class="conf conf-high">High</dt>
+          <dd>Linguistic cue + acoustic gap both fire near the same timestamp.</dd>
+          <dt class="conf conf-medium">Medium</dt>
+          <dd>Linguistic cue alone - a clear prompt with no acoustic corroboration.</dd>
+          <dt class="conf conf-low">Low</dt>
+          <dd>Acoustic gap alone - could be a student moment or a long pause.</dd>
+        </dl>
+      </div>
+    </aside>
+
+  </section>
+
+  <footer class="colophon">
+    <div class="colophon-line"></div>
+    <p class="colophon-text">
+      A demonstration of the end-to-end CapSub pipeline.
+      Whisper-Small fine-tuned on twenty-four MIT physics lectures.
+      Word-level alignment by WhisperX. Diarization with Pyannote. 
+      Custom phonetic post-processor for technical vocabulary.
+      Q&amp;A detection via linguistic patterns, acoustic energy analysis, and speaker labels.
+    </p>
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
