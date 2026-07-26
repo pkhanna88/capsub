@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Explore an interactive physics lecture transcript featuring enhanced Q&A detection and audio processing, designed to improve learning engagement and understanding." />
+<title>CapSub — Interactive Physics Lecture Transcription with Enhanced Q&A Detection and Audio Processing for Improved Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="canonical" href="https://openai.com/research/whisper/" />
+<link rel="author" href="https://www.yale.edu/" />
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <span class="brand-mark">¶</span>
+      <span class="brand-name">CapSub</span>
+    </div>
+    <nav class="meta-nav">
+      <span class="meta-item"><span class="meta-label">Subject</span><span class="meta-value">Physics</span></span>
+      <span class="meta-divider"></span>
+      <span class="meta-item"><span class="meta-label">Source</span><span class="meta-value">Yale OpenMedia, PHYS 200</span></span>
+      <span class="meta-divider"></span>
+      <span class="meta-item"><span class="meta-label">Lecture</span><span class="meta-value">Thermodynamics II</span></span>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="title-block">
+    <p class="kicker">Demonstration · Pre-processed sample</p>
+    <h1 class="title">
+      An interactive transcript<br>
+      with <em>three-signal</em> Q&amp;A detection.
+    </h1>
+    <p class="dek">
+      A fine-tuned Whisper model produces the words. A phonetic
+      post-processor cleans the physics. A merge of linguistic cues,
+      acoustic gaps, and speaker diarization marks the questions.
+    </p>
+    <div class="stats">
+      <div class="stat"><div class="stat-num" data-target="34">0</div><div class="stat-lbl">Segments</div></div>
+      <div class="stat"><div class="stat-num" data-target="348">0</div><div class="stat-lbl">Words</div></div>
+      <div class="stat"><div class="stat-num" data-target="8">0</div><div class="stat-lbl">Q&amp;A points</div></div>
+      <div class="stat"><div class="stat-num" data-target="4">0</div><div class="stat-lbl">High-confidence</div></div>
+    </div>
+  </section>
+
+  <section class="player-block">
+    <div class="player-frame">
+      <video id="video" controls preload="metadata" playsinline>
+        <source src="newsample.mp4" type="video/mp4">
+      </video>
+      <div class="frame-corners">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+      </div>
+    </div>
+    <div class="player-meta">
+      <div class="now-speaking">
+        <span class="now-label">Now speaking</span>
+        <span class="now-value" id="now-speaker">—</span>
+      </div>
+      <div class="time-display">
+        <span id="time-current">0:00</span>
+        <span class="time-sep">/</span>
+        <span id="time-total">0:00</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-grid">
+
+    <article class="transcript-column">
+      <header class="column-head">
+        <h2 class="column-title">Transcript</h2>
+        <div class="legend">
+          <span class="legend-item"><span class="dot dot-prof"></span>Professor</span>
+          <span class="legend-item"><span class="dot dot-stud"></span>Student</span>
+          <span class="legend-item"><span class="dot dot-corr"></span>Corrected</span>
+        </div>
+      </header>
+      <div class="transcript-scroll" id="transcript-scroll">
+        <div id="transcript"></div>
+      </div>
+    </article>
+
+    <aside class="qa-column">
+      <header class="column-head">
+        <h2 class="column-title">Q&amp;A points</h2>
+        <p class="column-sub">Detected interactions, by confidence.</p>
+      </header>
+      <div class="qa-list" id="qa-list"></div>
+      <div class="confidence-key">
+        <p class="key-title">How confidence is assigned</p>
+        <dl>
+          <dt class="conf conf-high">High</dt>
+          <dd>Linguistic cue + acoustic gap both fire near the same timestamp.</dd>
+          <dt class="conf conf-medium">Medium</dt>
+          <dd>Linguistic cue alone — a clear prompt, no acoustic corroboration.</dd>
+          <dt class="conf conf-low">Low</dt>
+          <dd>Acoustic gap alone — could be a student moment or a long pause.</dd>
+        </dl>
+      </div>
+    </aside>
+
+  </section>
+
+  <footer class="colophon">
+    <div class="colophon-line"></div>
+    <p class="colophon-text">
+      A demonstration of the CapSub pipeline.
+      Whisper Small fine-tuned on twenty-four MIT Quantum Physics I lectures.
+      Word-level alignment by WhisperX. Diarization by Pyannote.
+      Q&amp;A detection by linguistic patterns, acoustic gap analysis, and speaker labels.
+    </p>
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
