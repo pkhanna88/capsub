@@ -1,0 +1,2739 @@
+{
+  "video_path": "/content/drive/MyDrive/physics_lectures_dataset/newsample.mp4",
+  "segments": [
+    {
+      "start": 1.5790000000000002,
+      "end": 5.685,
+      "text": "I know that this is allowed, that is forbidden.",
+      "words": [
+        {
+          "word": "I",
+          "start": 1.5790000000000002,
+          "end": 1.799,
+          "score": 0.288
+        },
+        {
+          "word": "know",
+          "start": 2.02,
+          "end": 2.22,
+          "score": 0.797
+        },
+        {
+          "word": "that",
+          "start": 2.26,
+          "end": 3.021,
+          "score": 0.968,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 3.0410000000000004,
+          "end": 3.2009999999999996,
+          "score": 0.859,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 3.2809999999999997,
+          "end": 3.341,
+          "score": 0.613,
+          "speaker": "professor"
+        },
+        {
+          "word": "allowed,",
+          "start": 3.442,
+          "end": 3.7619999999999996,
+          "score": 0.835,
+          "speaker": "professor"
+        },
+        {
+          "word": "that",
+          "start": 4.964,
+          "end": 5.104,
+          "score": 0.826
+        },
+        {
+          "word": "is",
+          "start": 5.184,
+          "end": 5.224,
+          "score": 0.765
+        },
+        {
+          "word": "forbidden.",
+          "start": 5.284,
+          "end": 5.685,
+          "score": 0.914
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 6.726,
+      "end": 9.41,
+      "text": "So, I want to ask, did the entropy go up?",
+      "words": [
+        {
+          "word": "So,",
+          "start": 6.726,
+          "end": 6.806,
+          "score": 0.644
+        },
+        {
+          "word": "I",
+          "start": 6.826,
+          "end": 6.846,
+          "score": 0.999
+        },
+        {
+          "word": "want",
+          "start": 6.866,
+          "end": 7.007,
+          "score": 0.683
+        },
+        {
+          "word": "to",
+          "start": 7.047000000000001,
+          "end": 7.106999999999999,
+          "score": 0.702
+        },
+        {
+          "word": "ask,",
+          "start": 7.247,
+          "end": 7.446999999999999,
+          "score": 0.974
+        },
+        {
+          "word": "did",
+          "start": 8.449,
+          "end": 8.569,
+          "score": 0.785,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 8.589,
+          "end": 8.669,
+          "score": 0.82,
+          "speaker": "professor"
+        },
+        {
+          "word": "entropy",
+          "start": 8.689,
+          "end": 9.049,
+          "score": 0.926,
+          "speaker": "professor"
+        },
+        {
+          "word": "go",
+          "start": 9.09,
+          "end": 9.23,
+          "score": 0.917,
+          "speaker": "professor"
+        },
+        {
+          "word": "up?",
+          "start": 9.31,
+          "end": 9.41,
+          "score": 0.94,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 11.293,
+      "end": 12.975,
+      "text": "Now, how do we do the entropy calculation?",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 11.293,
+          "end": 11.393,
+          "score": 0.894
+        },
+        {
+          "word": "how",
+          "start": 11.413,
+          "end": 11.473,
+          "score": 0.797
+        },
+        {
+          "word": "do",
+          "start": 11.513,
+          "end": 11.593,
+          "score": 0.95
+        },
+        {
+          "word": "we",
+          "start": 11.633,
+          "end": 11.693,
+          "score": 0.46
+        },
+        {
+          "word": "do",
+          "start": 11.713,
+          "end": 11.773,
+          "score": 0.896
+        },
+        {
+          "word": "the",
+          "start": 11.813,
+          "end": 11.873,
+          "score": 0.691
+        },
+        {
+          "word": "entropy",
+          "start": 11.893,
+          "end": 12.274,
+          "score": 0.796,
+          "speaker": "professor"
+        },
+        {
+          "word": "calculation?",
+          "start": 12.314,
+          "end": 12.975,
+          "score": 0.89,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 13.115,
+      "end": 14.818,
+      "text": "Here's the wrong way to do the calculation.",
+      "words": [
+        {
+          "word": "Here's",
+          "start": 13.115,
+          "end": 13.335,
+          "score": 0.736,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 13.376,
+          "end": 13.436,
+          "score": 0.575,
+          "speaker": "professor"
+        },
+        {
+          "word": "wrong",
+          "start": 13.476,
+          "end": 13.736,
+          "score": 0.943,
+          "speaker": "professor"
+        },
+        {
+          "word": "way",
+          "start": 13.796,
+          "end": 13.916,
+          "score": 0.857,
+          "speaker": "professor"
+        },
+        {
+          "word": "to",
+          "start": 13.936,
+          "end": 14.016,
+          "score": 0.894,
+          "speaker": "professor"
+        },
+        {
+          "word": "do",
+          "start": 14.036,
+          "end": 14.117,
+          "score": 0.904,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 14.157,
+          "end": 14.217,
+          "score": 0.992,
+          "speaker": "professor"
+        },
+        {
+          "word": "calculation.",
+          "start": 14.257,
+          "end": 14.818,
+          "score": 0.888,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 15.097999999999999,
+      "end": 24.311,
+      "text": "You go back and say, delta S is delta q over t, but this whole box, I forgot to mention, I'm sorry, this whole box is thermally isolated.",
+      "words": [
+        {
+          "word": "You",
+          "start": 15.097999999999999,
+          "end": 15.218,
+          "score": 0.995,
+          "speaker": "professor"
+        },
+        {
+          "word": "go",
+          "start": 15.258,
+          "end": 15.358,
+          "score": 0.972,
+          "speaker": "professor"
+        },
+        {
+          "word": "back",
+          "start": 15.437999999999999,
+          "end": 15.599,
+          "score": 0.974,
+          "speaker": "professor"
+        },
+        {
+          "word": "and",
+          "start": 15.658999999999999,
+          "end": 15.739,
+          "score": 0.773,
+          "speaker": "professor"
+        },
+        {
+          "word": "say,",
+          "start": 15.818999999999999,
+          "end": 16.039,
+          "score": 0.997,
+          "speaker": "professor"
+        },
+        {
+          "word": "delta",
+          "start": 16.86,
+          "end": 17.221,
+          "score": 0.933,
+          "speaker": "professor"
+        },
+        {
+          "word": "S",
+          "start": 17.361,
+          "end": 17.421,
+          "score": 0.702
+        },
+        {
+          "word": "is",
+          "start": 17.501,
+          "end": 17.541,
+          "score": 0.156
+        },
+        {
+          "word": "delta",
+          "start": 17.561,
+          "end": 17.902,
+          "score": 0.973,
+          "speaker": "professor"
+        },
+        {
+          "word": "q",
+          "start": 17.962,
+          "end": 18.162,
+          "score": 0.742,
+          "speaker": "professor"
+        },
+        {
+          "word": "over",
+          "start": 18.242,
+          "end": 18.483,
+          "score": 0.893,
+          "speaker": "professor"
+        },
+        {
+          "word": "t,",
+          "start": 18.503,
+          "end": 18.743,
+          "score": 0.908,
+          "speaker": "professor"
+        },
+        {
+          "word": "but",
+          "start": 20.185,
+          "end": 20.285,
+          "score": 0.983
+        },
+        {
+          "word": "this",
+          "start": 20.325,
+          "end": 20.465,
+          "score": 0.908
+        },
+        {
+          "word": "whole",
+          "start": 20.506,
+          "end": 20.706,
+          "score": 0.887
+        },
+        {
+          "word": "box,",
+          "start": 20.786,
+          "end": 21.046,
+          "score": 0.926
+        },
+        {
+          "word": "I",
+          "start": 21.086,
+          "end": 21.166,
+          "score": 0.771,
+          "speaker": "professor"
+        },
+        {
+          "word": "forgot",
+          "start": 21.207,
+          "end": 21.407,
+          "score": 0.737,
+          "speaker": "professor"
+        },
+        {
+          "word": "to",
+          "start": 21.447,
+          "end": 21.487,
+          "score": 0.649,
+          "speaker": "professor"
+        },
+        {
+          "word": "mention,",
+          "start": 21.527,
+          "end": 21.827,
+          "score": 0.908,
+          "speaker": "professor"
+        },
+        {
+          "word": "I'm",
+          "start": 21.847,
+          "end": 21.948,
+          "score": 0.98,
+          "speaker": "professor"
+        },
+        {
+          "word": "sorry,",
+          "start": 22.008,
+          "end": 22.308,
+          "score": 0.991,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 22.649,
+          "end": 22.749,
+          "score": 0.611,
+          "speaker": "professor"
+        },
+        {
+          "word": "whole",
+          "start": 22.789,
+          "end": 22.969,
+          "score": 0.904,
+          "speaker": "professor"
+        },
+        {
+          "word": "box",
+          "start": 23.029,
+          "end": 23.269,
+          "score": 0.986,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 23.329,
+          "end": 23.37,
+          "score": 0.904,
+          "speaker": "professor"
+        },
+        {
+          "word": "thermally",
+          "start": 23.43,
+          "end": 23.77,
+          "score": 0.825,
+          "speaker": "professor"
+        },
+        {
+          "word": "isolated.",
+          "start": 23.79,
+          "end": 24.311,
+          "score": 0.912,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 25.192,
+      "end": 28.697,
+      "text": "It's not in contact with anything.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 25.192,
+          "end": 25.292,
+          "score": 0.686,
+          "speaker": "professor"
+        },
+        {
+          "word": "not",
+          "start": 25.312,
+          "end": 25.432,
+          "score": 0.888,
+          "speaker": "professor"
+        },
+        {
+          "word": "in",
+          "start": 25.452,
+          "end": 25.513,
+          "score": 0.631
+        },
+        {
+          "word": "contact",
+          "start": 25.553,
+          "end": 25.873,
+          "score": 0.971
+        },
+        {
+          "word": "with",
+          "start": 25.913,
+          "end": 26.013,
+          "score": 0.99,
+          "speaker": "professor"
+        },
+        {
+          "word": "anything.",
+          "start": 26.073,
+          "end": 28.697,
+          "score": 0.961,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 28.717,
+      "end": 30.86,
+      "text": "I just ripped out the partition in the middle.",
+      "words": [
+        {
+          "word": "I",
+          "start": 28.717,
+          "end": 28.777,
+          "score": 0.989
+        },
+        {
+          "word": "just",
+          "start": 28.817,
+          "end": 28.937,
+          "score": 0.659
+        },
+        {
+          "word": "ripped",
+          "start": 28.997,
+          "end": 29.198,
+          "score": 0.825
+        },
+        {
+          "word": "out",
+          "start": 29.258,
+          "end": 29.338,
+          "score": 0.847
+        },
+        {
+          "word": "the",
+          "start": 29.378,
+          "end": 29.458,
+          "score": 0.942
+        },
+        {
+          "word": "partition",
+          "start": 29.498,
+          "end": 29.919,
+          "score": 0.955,
+          "speaker": "professor"
+        },
+        {
+          "word": "in",
+          "start": 29.959,
+          "end": 29.999,
+          "score": 0.997,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 30.039,
+          "end": 30.099,
+          "score": 0.999,
+          "speaker": "professor"
+        },
+        {
+          "word": "middle.",
+          "start": 30.159,
+          "end": 30.86,
+          "score": 0.855,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 31.936999999999998,
+      "end": 35.141,
+      "text": "So, you might say, well, if you're thermally isolated, delta q is 0.",
+      "words": [
+        {
+          "word": "So,",
+          "start": 31.936999999999998,
+          "end": 32.077,
+          "score": 0.47
+        },
+        {
+          "word": "you",
+          "start": 32.097,
+          "end": 32.177,
+          "score": 0.991
+        },
+        {
+          "word": "might",
+          "start": 32.197,
+          "end": 32.337,
+          "score": 0.92
+        },
+        {
+          "word": "say,",
+          "start": 32.378,
+          "end": 32.478,
+          "score": 0.436
+        },
+        {
+          "word": "well,",
+          "start": 32.498,
+          "end": 32.598,
+          "score": 0.75
+        },
+        {
+          "word": "if",
+          "start": 32.618,
+          "end": 32.678,
+          "score": 0.847
+        },
+        {
+          "word": "you're",
+          "start": 32.738,
+          "end": 32.878,
+          "score": 0.158
+        },
+        {
+          "word": "thermally",
+          "start": 32.898,
+          "end": 33.078,
+          "score": 0.358,
+          "speaker": "professor"
+        },
+        {
+          "word": "isolated,",
+          "start": 33.159,
+          "end": 33.619,
+          "score": 0.887,
+          "speaker": "professor"
+        },
+        {
+          "word": "delta",
+          "start": 33.659,
+          "end": 34.6,
+          "score": 0.737,
+          "speaker": "professor"
+        },
+        {
+          "word": "q",
+          "start": 34.62,
+          "end": 34.64,
+          "score": 0.88,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 34.7,
+          "end": 34.74,
+          "score": 0.562,
+          "speaker": "professor"
+        },
+        {
+          "word": "0.",
+          "start": 34.76,
+          "end": 35.141,
+          "score": 0.668,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 36.983,
+      "end": 38.926,
+      "text": "So, you can divide by t, you can do what you want.",
+      "words": [
+        {
+          "word": "So,",
+          "start": 36.983,
+          "end": 37.143,
+          "score": 0.997
+        },
+        {
+          "word": "you",
+          "start": 37.163,
+          "end": 37.244,
+          "score": 0.998
+        },
+        {
+          "word": "can",
+          "start": 37.284,
+          "end": 37.384,
+          "score": 0.881
+        },
+        {
+          "word": "divide",
+          "start": 37.404,
+          "end": 37.664,
+          "score": 0.905
+        },
+        {
+          "word": "by",
+          "start": 37.704,
+          "end": 37.804,
+          "score": 0.919
+        },
+        {
+          "word": "t,",
+          "start": 37.864,
+          "end": 38.004,
+          "score": 0.774,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 38.025,
+          "end": 38.105,
+          "score": 0.883,
+          "speaker": "professor"
+        },
+        {
+          "word": "can",
+          "start": 38.125,
+          "end": 38.225,
+          "score": 0.984,
+          "speaker": "professor"
+        },
+        {
+          "word": "do",
+          "start": 38.265,
+          "end": 38.345,
+          "score": 0.999,
+          "speaker": "professor"
+        },
+        {
+          "word": "what",
+          "start": 38.385,
+          "end": 38.505,
+          "score": 0.664,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 38.565,
+          "end": 38.665,
+          "score": 0.996,
+          "speaker": "professor"
+        },
+        {
+          "word": "want.",
+          "start": 38.705,
+          "end": 38.926,
+          "score": 0.825,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 39.266,
+      "end": 40.608,
+      "text": "So, this entropy change is 0.",
+      "words": [
+        {
+          "word": "So,",
+          "start": 39.266,
+          "end": 39.366,
+          "score": 0.847,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 39.406,
+          "end": 39.506,
+          "score": 0.502,
+          "speaker": "professor"
+        },
+        {
+          "word": "entropy",
+          "start": 39.566,
+          "end": 39.927,
+          "score": 0.587,
+          "speaker": "professor"
+        },
+        {
+          "word": "change",
+          "start": 39.947,
+          "end": 40.147,
+          "score": 0.601,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 40.187,
+          "end": 40.227,
+          "score": 0.0,
+          "speaker": "professor"
+        },
+        {
+          "word": "0.",
+          "start": 40.247,
+          "end": 40.608,
+          "score": 0.804,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 41.469,
+      "end": 42.79,
+      "text": "But that is a wrong argument.",
+      "words": [
+        {
+          "word": "But",
+          "start": 41.469,
+          "end": 41.569,
+          "score": 0.988,
+          "speaker": "professor"
+        },
+        {
+          "word": "that",
+          "start": 41.609,
+          "end": 41.749,
+          "score": 0.77,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 41.809,
+          "end": 41.889,
+          "score": 0.881,
+          "speaker": "professor"
+        },
+        {
+          "word": "a",
+          "start": 41.969,
+          "end": 42.009,
+          "score": 0.969,
+          "speaker": "professor"
+        },
+        {
+          "word": "wrong",
+          "start": 42.07,
+          "end": 42.29,
+          "score": 0.893,
+          "speaker": "professor"
+        },
+        {
+          "word": "argument.",
+          "start": 42.41,
+          "end": 42.79,
+          "score": 0.95,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 45.454,
+      "end": 50.64,
+      "text": "Can you think about why that's not the way to do the entropy change or why that's the wrong analysis?",
+      "words": [
+        {
+          "word": "Can",
+          "start": 45.454,
+          "end": 45.594,
+          "score": 0.881
+        },
+        {
+          "word": "you",
+          "start": 45.614,
+          "end": 45.694,
+          "score": 0.835
+        },
+        {
+          "word": "think",
+          "start": 45.754,
+          "end": 45.894,
+          "score": 0.878
+        },
+        {
+          "word": "about",
+          "start": 45.934,
+          "end": 46.094,
+          "score": 0.928
+        },
+        {
+          "word": "why",
+          "start": 46.175,
+          "end": 46.435,
+          "score": 0.737,
+          "speaker": "professor"
+        },
+        {
+          "word": "that's",
+          "start": 46.515,
+          "end": 46.735,
+          "score": 0.854,
+          "speaker": "professor"
+        },
+        {
+          "word": "not",
+          "start": 46.855,
+          "end": 47.016,
+          "score": 0.841,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 47.096,
+          "end": 47.176,
+          "score": 0.977,
+          "speaker": "professor"
+        },
+        {
+          "word": "way",
+          "start": 47.216,
+          "end": 47.356,
+          "score": 0.944,
+          "speaker": "professor"
+        },
+        {
+          "word": "to",
+          "start": 47.396,
+          "end": 47.496,
+          "score": 0.875,
+          "speaker": "professor"
+        },
+        {
+          "word": "do",
+          "start": 47.536,
+          "end": 47.616,
+          "score": 0.992,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 47.636,
+          "end": 47.716,
+          "score": 0.667,
+          "speaker": "professor"
+        },
+        {
+          "word": "entropy",
+          "start": 47.757,
+          "end": 48.097,
+          "score": 0.776,
+          "speaker": "professor"
+        },
+        {
+          "word": "change",
+          "start": 48.117,
+          "end": 48.317,
+          "score": 0.518,
+          "speaker": "professor"
+        },
+        {
+          "word": "or",
+          "start": 48.377,
+          "end": 48.437,
+          "score": 0.701,
+          "speaker": "professor"
+        },
+        {
+          "word": "why",
+          "start": 48.477,
+          "end": 48.638,
+          "score": 0.426,
+          "speaker": "professor"
+        },
+        {
+          "word": "that's",
+          "start": 48.678,
+          "end": 48.898,
+          "score": 0.834,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 48.978,
+          "end": 49.058,
+          "score": 0.996,
+          "speaker": "professor"
+        },
+        {
+          "word": "wrong",
+          "start": 49.098,
+          "end": 49.359,
+          "score": 0.882,
+          "speaker": "professor"
+        },
+        {
+          "word": "analysis?",
+          "start": 50.119,
+          "end": 50.64,
+          "score": 0.894,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 54.885,
+      "end": 58.67,
+      "text": "First of all, could that be the right answer?",
+      "words": [
+        {
+          "word": "First",
+          "start": 54.885,
+          "end": 55.066,
+          "score": 0.844
+        },
+        {
+          "word": "of",
+          "start": 55.086,
+          "end": 55.166,
+          "score": 0.783
+        },
+        {
+          "word": "all,",
+          "start": 55.186,
+          "end": 55.286,
+          "score": 0.622
+        },
+        {
+          "word": "could",
+          "start": 55.346,
+          "end": 55.466,
+          "score": 0.93
+        },
+        {
+          "word": "that",
+          "start": 55.486,
+          "end": 55.626,
+          "score": 0.868
+        },
+        {
+          "word": "be",
+          "start": 55.666,
+          "end": 55.766,
+          "score": 0.586
+        },
+        {
+          "word": "the",
+          "start": 55.806,
+          "end": 55.887,
+          "score": 0.57,
+          "speaker": "professor"
+        },
+        {
+          "word": "right",
+          "start": 55.907,
+          "end": 56.087,
+          "score": 0.72,
+          "speaker": "professor"
+        },
+        {
+          "word": "answer?",
+          "start": 56.187,
+          "end": 58.67,
+          "score": 0.84,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 60.76,
+      "end": 76.685,
+      "text": "that is correct, but I'm saying this computation of entropy, the one line calculation I did, namely there is no heat inflow, so delta Q is 0, so delta Q over T summed up is also 0.",
+      "words": [
+        {
+          "word": "that",
+          "start": 60.76,
+          "end": 66.189,
+          "score": 0.68
+        },
+        {
+          "word": "is",
+          "start": 66.229,
+          "end": 66.289,
+          "score": 0.785
+        },
+        {
+          "word": "correct,",
+          "start": 66.349,
+          "end": 66.609,
+          "score": 0.674,
+          "speaker": "professor"
+        },
+        {
+          "word": "but",
+          "start": 66.629,
+          "end": 66.709,
+          "score": 0.965,
+          "speaker": "professor"
+        },
+        {
+          "word": "I'm",
+          "start": 66.73,
+          "end": 66.85,
+          "score": 0.875,
+          "speaker": "professor"
+        },
+        {
+          "word": "saying",
+          "start": 66.89,
+          "end": 67.11,
+          "score": 0.852,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 67.15,
+          "end": 67.471,
+          "score": 0.874,
+          "speaker": "professor"
+        },
+        {
+          "word": "computation",
+          "start": 67.591,
+          "end": 68.232,
+          "score": 0.942,
+          "speaker": "professor"
+        },
+        {
+          "word": "of",
+          "start": 68.272,
+          "end": 68.332,
+          "score": 0.7,
+          "speaker": "professor"
+        },
+        {
+          "word": "entropy,",
+          "start": 68.392,
+          "end": 68.813,
+          "score": 0.917,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 69.213,
+          "end": 69.314,
+          "score": 0.986,
+          "speaker": "professor"
+        },
+        {
+          "word": "one",
+          "start": 69.394,
+          "end": 69.494,
+          "score": 0.766,
+          "speaker": "professor"
+        },
+        {
+          "word": "line",
+          "start": 69.534,
+          "end": 69.734,
+          "score": 0.848,
+          "speaker": "professor"
+        },
+        {
+          "word": "calculation",
+          "start": 69.774,
+          "end": 70.335,
+          "score": 0.954,
+          "speaker": "professor"
+        },
+        {
+          "word": "I",
+          "start": 70.395,
+          "end": 70.435,
+          "score": 0.983,
+          "speaker": "professor"
+        },
+        {
+          "word": "did,",
+          "start": 70.496,
+          "end": 70.696,
+          "score": 0.942,
+          "speaker": "professor"
+        },
+        {
+          "word": "namely",
+          "start": 71.437,
+          "end": 71.738,
+          "score": 0.814,
+          "speaker": "professor"
+        },
+        {
+          "word": "there",
+          "start": 71.798,
+          "end": 71.938,
+          "score": 0.731,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 71.978,
+          "end": 72.038,
+          "score": 0.876
+        },
+        {
+          "word": "no",
+          "start": 72.078,
+          "end": 72.198,
+          "score": 0.773
+        },
+        {
+          "word": "heat",
+          "start": 72.218,
+          "end": 72.399,
+          "score": 0.801,
+          "speaker": "professor"
+        },
+        {
+          "word": "inflow,",
+          "start": 72.439,
+          "end": 72.859,
+          "score": 0.879,
+          "speaker": "professor"
+        },
+        {
+          "word": "so",
+          "start": 73.02,
+          "end": 73.12,
+          "score": 0.69,
+          "speaker": "professor"
+        },
+        {
+          "word": "delta",
+          "start": 73.16,
+          "end": 73.42,
+          "score": 0.839,
+          "speaker": "professor"
+        },
+        {
+          "word": "Q",
+          "start": 73.44,
+          "end": 73.6,
+          "score": 0.802,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 73.661,
+          "end": 73.721,
+          "score": 0.399,
+          "speaker": "professor"
+        },
+        {
+          "word": "0,",
+          "start": 73.741,
+          "end": 74.081,
+          "score": 0.888,
+          "speaker": "professor"
+        },
+        {
+          "word": "so",
+          "start": 74.141,
+          "end": 74.322,
+          "score": 0.986,
+          "speaker": "professor"
+        },
+        {
+          "word": "delta",
+          "start": 74.582,
+          "end": 74.923,
+          "score": 0.882,
+          "speaker": "professor"
+        },
+        {
+          "word": "Q",
+          "start": 74.943,
+          "end": 75.103,
+          "score": 0.702,
+          "speaker": "professor"
+        },
+        {
+          "word": "over",
+          "start": 75.123,
+          "end": 75.303,
+          "score": 0.86,
+          "speaker": "professor"
+        },
+        {
+          "word": "T",
+          "start": 75.323,
+          "end": 75.524,
+          "score": 0.758,
+          "speaker": "professor"
+        },
+        {
+          "word": "summed",
+          "start": 75.584,
+          "end": 75.844,
+          "score": 0.952,
+          "speaker": "professor"
+        },
+        {
+          "word": "up",
+          "start": 75.904,
+          "end": 75.964,
+          "score": 0.978,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 76.044,
+          "end": 76.124,
+          "score": 0.552,
+          "speaker": "professor"
+        },
+        {
+          "word": "also",
+          "start": 76.185,
+          "end": 76.425,
+          "score": 0.69,
+          "speaker": "professor"
+        },
+        {
+          "word": "0.",
+          "start": 76.445,
+          "end": 76.685,
+          "score": 0.862,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 77.326,
+      "end": 78.989,
+      "text": "That's not how you do the entropy change.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 77.326,
+          "end": 77.487,
+          "score": 0.887,
+          "speaker": "professor"
+        },
+        {
+          "word": "not",
+          "start": 77.547,
+          "end": 77.687,
+          "score": 0.819,
+          "speaker": "professor"
+        },
+        {
+          "word": "how",
+          "start": 77.807,
+          "end": 77.887,
+          "score": 0.974,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 77.947,
+          "end": 78.048,
+          "score": 0.839,
+          "speaker": "professor"
+        },
+        {
+          "word": "do",
+          "start": 78.088,
+          "end": 78.208,
+          "score": 0.982,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 78.248,
+          "end": 78.328,
+          "score": 0.819,
+          "speaker": "professor"
+        },
+        {
+          "word": "entropy",
+          "start": 78.348,
+          "end": 78.689,
+          "score": 0.849,
+          "speaker": "professor"
+        },
+        {
+          "word": "change.",
+          "start": 78.709,
+          "end": 78.989,
+          "score": 0.574,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 82.114,
+      "end": 84.358,
+      "text": "Is there any condition I made on computing?",
+      "words": [
+        {
+          "word": "Is",
+          "start": 82.114,
+          "end": 82.154,
+          "score": 0.32
+        },
+        {
+          "word": "there",
+          "start": 82.174,
+          "end": 82.294,
+          "score": 0.312
+        },
+        {
+          "word": "any",
+          "start": 82.555,
+          "end": 82.675,
+          "score": 0.905
+        },
+        {
+          "word": "condition",
+          "start": 82.735,
+          "end": 83.176,
+          "score": 0.934,
+          "speaker": "professor"
+        },
+        {
+          "word": "I",
+          "start": 83.236,
+          "end": 83.276,
+          "score": 0.784,
+          "speaker": "professor"
+        },
+        {
+          "word": "made",
+          "start": 83.316,
+          "end": 83.576,
+          "score": 0.766,
+          "speaker": "professor"
+        },
+        {
+          "word": "on",
+          "start": 83.737,
+          "end": 83.797,
+          "score": 0.95,
+          "speaker": "professor"
+        },
+        {
+          "word": "computing?",
+          "start": 83.897,
+          "end": 84.358,
+          "score": 0.947,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 84.418,
+      "end": 87.122,
+      "text": "Yes.",
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 84.418,
+          "end": 87.122,
+          "score": 0.96,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 91.118,
+      "end": 93.382,
+      "text": " Wait, in fact, here is the interesting thing.",
+      "words": [
+        {
+          "word": "Wait,",
+          "start": 91.118,
+          "end": 92.06,
+          "score": 0.674
+        },
+        {
+          "word": "in",
+          "start": 92.08,
+          "end": 92.14,
+          "score": 0.998,
+          "speaker": "professor"
+        },
+        {
+          "word": "fact,",
+          "start": 92.18,
+          "end": 92.36,
+          "score": 0.979,
+          "speaker": "professor"
+        },
+        {
+          "word": "here",
+          "start": 92.4,
+          "end": 92.52,
+          "score": 0.854,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 92.56,
+          "end": 92.621,
+          "score": 0.968,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 92.641,
+          "end": 92.701,
+          "score": 0.819,
+          "speaker": "professor"
+        },
+        {
+          "word": "interesting",
+          "start": 92.741,
+          "end": 93.141,
+          "score": 0.852,
+          "speaker": "professor"
+        },
+        {
+          "word": "thing.",
+          "start": 93.181,
+          "end": 93.382,
+          "score": 0.916,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 94.484,
+      "end": 98.691,
+      "text": "What's going to be the temperature difference between before and after?",
+      "words": [
+        {
+          "word": "What's",
+          "start": 94.484,
+          "end": 94.724,
+          "score": 0.902,
+          "speaker": "professor"
+        },
+        {
+          "word": "going",
+          "start": 94.764,
+          "end": 94.904,
+          "score": 0.833
+        },
+        {
+          "word": "to",
+          "start": 94.924,
+          "end": 94.964,
+          "score": 0.952
+        },
+        {
+          "word": "be",
+          "start": 94.985,
+          "end": 95.025,
+          "score": 0.996,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 95.065,
+          "end": 95.125,
+          "score": 0.961
+        },
+        {
+          "word": "temperature",
+          "start": 95.165,
+          "end": 95.586,
+          "score": 0.686,
+          "speaker": "professor"
+        },
+        {
+          "word": "difference",
+          "start": 95.626,
+          "end": 95.926,
+          "score": 0.906,
+          "speaker": "professor"
+        },
+        {
+          "word": "between",
+          "start": 95.966,
+          "end": 96.247,
+          "score": 0.848,
+          "speaker": "professor"
+        },
+        {
+          "word": "before",
+          "start": 96.347,
+          "end": 96.667,
+          "score": 0.875,
+          "speaker": "professor"
+        },
+        {
+          "word": "and",
+          "start": 96.727,
+          "end": 96.788,
+          "score": 0.842,
+          "speaker": "professor"
+        },
+        {
+          "word": "after?",
+          "start": 96.888,
+          "end": 98.691,
+          "score": 0.963,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 98.711,
+      "end": 100.133,
+      "text": "Which is going to be hotter or cooler?",
+      "words": [
+        {
+          "word": "Which",
+          "start": 98.711,
+          "end": 98.851,
+          "score": 0.859
+        },
+        {
+          "word": "is",
+          "start": 98.891,
+          "end": 98.951,
+          "score": 0.87
+        },
+        {
+          "word": "going",
+          "start": 98.971,
+          "end": 99.091,
+          "score": 0.704
+        },
+        {
+          "word": "to",
+          "start": 99.111,
+          "end": 99.152,
+          "score": 0.347
+        },
+        {
+          "word": "be",
+          "start": 99.192,
+          "end": 99.252,
+          "score": 0.831
+        },
+        {
+          "word": "hotter",
+          "start": 99.292,
+          "end": 99.612,
+          "score": 0.675
+        },
+        {
+          "word": "or",
+          "start": 99.692,
+          "end": 99.773,
+          "score": 0.784,
+          "speaker": "professor"
+        },
+        {
+          "word": "cooler?",
+          "start": 99.833,
+          "end": 100.133,
+          "score": 0.882,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 103.739,
+      "end": 107.726,
+      "text": "Any views on this?",
+      "words": [
+        {
+          "word": "Any",
+          "start": 103.739,
+          "end": 103.96,
+          "score": 0.968
+        },
+        {
+          "word": "views",
+          "start": 104.561,
+          "end": 104.801,
+          "score": 0.847,
+          "speaker": "professor"
+        },
+        {
+          "word": "on",
+          "start": 104.881,
+          "end": 104.961,
+          "score": 0.87,
+          "speaker": "professor"
+        },
+        {
+          "word": "this?",
+          "start": 105.001,
+          "end": 107.726,
+          "score": 0.895,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 112.161,
+      "end": 122.415,
+      "text": "Well, you can say it is cooler because it was insulated and expanded, but you cool down because you expand against an external pressure, right?",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 112.161,
+          "end": 113.743,
+          "score": 0.777,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 115.065,
+          "end": 115.165,
+          "score": 0.794
+        },
+        {
+          "word": "can",
+          "start": 115.185,
+          "end": 115.325,
+          "score": 0.956
+        },
+        {
+          "word": "say",
+          "start": 115.386,
+          "end": 115.526,
+          "score": 0.85
+        },
+        {
+          "word": "it",
+          "start": 115.566,
+          "end": 115.606,
+          "score": 0.593
+        },
+        {
+          "word": "is",
+          "start": 115.686,
+          "end": 115.746,
+          "score": 0.779
+        },
+        {
+          "word": "cooler",
+          "start": 115.806,
+          "end": 116.147,
+          "score": 0.823,
+          "speaker": "professor"
+        },
+        {
+          "word": "because",
+          "start": 116.407,
+          "end": 116.647,
+          "score": 0.823,
+          "speaker": "professor"
+        },
+        {
+          "word": "it",
+          "start": 116.727,
+          "end": 116.767,
+          "score": 0.978,
+          "speaker": "professor"
+        },
+        {
+          "word": "was",
+          "start": 116.808,
+          "end": 116.908,
+          "score": 0.941,
+          "speaker": "professor"
+        },
+        {
+          "word": "insulated",
+          "start": 116.988,
+          "end": 117.448,
+          "score": 0.87,
+          "speaker": "professor"
+        },
+        {
+          "word": "and",
+          "start": 117.489,
+          "end": 117.549,
+          "score": 0.941,
+          "speaker": "professor"
+        },
+        {
+          "word": "expanded,",
+          "start": 117.589,
+          "end": 118.049,
+          "score": 0.951,
+          "speaker": "professor"
+        },
+        {
+          "word": "but",
+          "start": 118.69,
+          "end": 118.79,
+          "score": 0.919,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 119.031,
+          "end": 119.191,
+          "score": 0.903,
+          "speaker": "professor"
+        },
+        {
+          "word": "cool",
+          "start": 119.251,
+          "end": 119.471,
+          "score": 0.93,
+          "speaker": "professor"
+        },
+        {
+          "word": "down",
+          "start": 119.491,
+          "end": 119.672,
+          "score": 0.648,
+          "speaker": "professor"
+        },
+        {
+          "word": "because",
+          "start": 119.712,
+          "end": 119.892,
+          "score": 0.98,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 119.932,
+          "end": 120.032,
+          "score": 0.785,
+          "speaker": "professor"
+        },
+        {
+          "word": "expand",
+          "start": 120.092,
+          "end": 120.433,
+          "score": 0.976,
+          "speaker": "professor"
+        },
+        {
+          "word": "against",
+          "start": 120.473,
+          "end": 120.773,
+          "score": 0.873,
+          "speaker": "professor"
+        },
+        {
+          "word": "an",
+          "start": 120.913,
+          "end": 120.953,
+          "score": 0.939,
+          "speaker": "professor"
+        },
+        {
+          "word": "external",
+          "start": 121.013,
+          "end": 121.394,
+          "score": 0.952,
+          "speaker": "professor"
+        },
+        {
+          "word": "pressure,",
+          "start": 121.474,
+          "end": 122.195,
+          "score": 0.877,
+          "speaker": "professor"
+        },
+        {
+          "word": "right?",
+          "start": 122.215,
+          "end": 122.415,
+          "score": 0.906,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 123.537,
+      "end": 128.043,
+      "text": "Even when I remove this piston here, there is no pressure pushing this gas back.",
+      "words": [
+        {
+          "word": "Even",
+          "start": 123.537,
+          "end": 123.677,
+          "score": 0.708
+        },
+        {
+          "word": "when",
+          "start": 123.697,
+          "end": 123.777,
+          "score": 0.36
+        },
+        {
+          "word": "I",
+          "start": 123.837,
+          "end": 123.898,
+          "score": 0.614
+        },
+        {
+          "word": "remove",
+          "start": 123.918,
+          "end": 124.178,
+          "score": 0.532
+        },
+        {
+          "word": "this",
+          "start": 124.198,
+          "end": 124.318,
+          "score": 0.544
+        },
+        {
+          "word": "piston",
+          "start": 124.358,
+          "end": 124.699,
+          "score": 0.928,
+          "speaker": "professor"
+        },
+        {
+          "word": "here,",
+          "start": 124.739,
+          "end": 124.979,
+          "score": 0.912,
+          "speaker": "professor"
+        },
+        {
+          "word": "there",
+          "start": 126.081,
+          "end": 126.201,
+          "score": 0.494,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 126.241,
+          "end": 126.321,
+          "score": 0.734
+        },
+        {
+          "word": "no",
+          "start": 126.361,
+          "end": 126.481,
+          "score": 0.831
+        },
+        {
+          "word": "pressure",
+          "start": 126.561,
+          "end": 126.862,
+          "score": 0.897
+        },
+        {
+          "word": "pushing",
+          "start": 126.902,
+          "end": 127.262,
+          "score": 0.753,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 127.30199999999999,
+          "end": 127.44300000000001,
+          "score": 0.765,
+          "speaker": "professor"
+        },
+        {
+          "word": "gas",
+          "start": 127.483,
+          "end": 127.72300000000001,
+          "score": 0.868,
+          "speaker": "professor"
+        },
+        {
+          "word": "back.",
+          "start": 127.82300000000001,
+          "end": 128.043,
+          "score": 0.992,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 128.144,
+      "end": 128.824,
+      "text": "You understand that?",
+      "words": [
+        {
+          "word": "You",
+          "start": 128.144,
+          "end": 128.244,
+          "score": 0.903,
+          "speaker": "professor"
+        },
+        {
+          "word": "understand",
+          "start": 128.264,
+          "end": 128.624,
+          "score": 0.818,
+          "speaker": "professor"
+        },
+        {
+          "word": "that?",
+          "start": 128.664,
+          "end": 128.824,
+          "score": 0.985,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 129.485,
+      "end": 130.347,
+      "text": "It doesn't do any work.",
+      "words": [
+        {
+          "word": "It",
+          "start": 129.485,
+          "end": 129.525,
+          "score": 0.0,
+          "speaker": "professor"
+        },
+        {
+          "word": "doesn't",
+          "start": 129.545,
+          "end": 129.766,
+          "score": 0.775,
+          "speaker": "professor"
+        },
+        {
+          "word": "do",
+          "start": 129.806,
+          "end": 129.886,
+          "score": 0.8,
+          "speaker": "professor"
+        },
+        {
+          "word": "any",
+          "start": 129.946,
+          "end": 130.066,
+          "score": 0.944,
+          "speaker": "professor"
+        },
+        {
+          "word": "work.",
+          "start": 130.126,
+          "end": 130.347,
+          "score": 0.935
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 131.588,
+      "end": 132.49,
+      "text": "It doesn't take any heat.",
+      "words": [
+        {
+          "word": "It",
+          "start": 131.588,
+          "end": 131.628,
+          "score": 0.001
+        },
+        {
+          "word": "doesn't",
+          "start": 131.648,
+          "end": 131.869,
+          "score": 0.757
+        },
+        {
+          "word": "take",
+          "start": 131.909,
+          "end": 132.049,
+          "score": 0.817
+        },
+        {
+          "word": "any",
+          "start": 132.129,
+          "end": 132.249,
+          "score": 0.901
+        },
+        {
+          "word": "heat.",
+          "start": 132.309,
+          "end": 132.49,
+          "score": 0.991
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 134.032,
+      "end": 134.813,
+      "text": "So, what does that mean?",
+      "words": [
+        {
+          "word": "So,",
+          "start": 134.032,
+          "end": 134.152,
+          "score": 0.826
+        },
+        {
+          "word": "what",
+          "start": 134.172,
+          "end": 134.272,
+          "score": 0.852
+        },
+        {
+          "word": "does",
+          "start": 134.312,
+          "end": 134.392,
+          "score": 0.865
+        },
+        {
+          "word": "that",
+          "start": 134.432,
+          "end": 134.573,
+          "score": 0.818
+        },
+        {
+          "word": "mean?",
+          "start": 134.653,
+          "end": 134.813,
+          "score": 0.75
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 135.053,
+      "end": 138.438,
+      "text": "In the end, when you settle down, what can you conclude then?",
+      "words": [
+        {
+          "word": "In",
+          "start": 135.053,
+          "end": 135.113,
+          "score": 0.877,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 135.153,
+          "end": 135.254,
+          "score": 0.686,
+          "speaker": "professor"
+        },
+        {
+          "word": "end,",
+          "start": 135.334,
+          "end": 135.454,
+          "score": 0.982,
+          "speaker": "professor"
+        },
+        {
+          "word": "when",
+          "start": 135.514,
+          "end": 135.614,
+          "score": 0.991,
+          "speaker": "professor"
+        },
+        {
+          "word": "you",
+          "start": 135.654,
+          "end": 135.754,
+          "score": 0.925,
+          "speaker": "professor"
+        },
+        {
+          "word": "settle",
+          "start": 135.794,
+          "end": 136.055,
+          "score": 0.733,
+          "speaker": "professor"
+        },
+        {
+          "word": "down,",
+          "start": 136.095,
+          "end": 136.275,
+          "score": 0.936,
+          "speaker": "professor"
+        },
+        {
+          "word": "what",
+          "start": 137.417,
+          "end": 137.557,
+          "score": 0.871
+        },
+        {
+          "word": "can",
+          "start": 137.597,
+          "end": 137.717,
+          "score": 0.973
+        },
+        {
+          "word": "you",
+          "start": 137.757,
+          "end": 137.837,
+          "score": 0.785
+        },
+        {
+          "word": "conclude",
+          "start": 137.877,
+          "end": 138.218,
+          "score": 0.804
+        },
+        {
+          "word": "then?",
+          "start": 138.298,
+          "end": 138.438,
+          "score": 0.748,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 140.275,
+      "end": 142.141,
+      "text": " No heat input, no work done.",
+      "words": [
+        {
+          "word": "No",
+          "start": 140.275,
+          "end": 140.476,
+          "score": 0.8
+        },
+        {
+          "word": "heat",
+          "start": 140.536,
+          "end": 140.696,
+          "score": 0.901
+        },
+        {
+          "word": "input,",
+          "start": 140.977,
+          "end": 141.318,
+          "score": 0.7,
+          "speaker": "professor"
+        },
+        {
+          "word": "no",
+          "start": 141.439,
+          "end": 141.599,
+          "score": 0.98,
+          "speaker": "professor"
+        },
+        {
+          "word": "work",
+          "start": 141.639,
+          "end": 141.86,
+          "score": 0.852,
+          "speaker": "professor"
+        },
+        {
+          "word": "done.",
+          "start": 141.92,
+          "end": 142.141,
+          "score": 0.89,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 142.322,
+      "end": 144.228,
+      "text": "So, what does that mean in terms of temperature?",
+      "words": [
+        {
+          "word": "So,",
+          "start": 142.322,
+          "end": 142.482,
+          "score": 0.985,
+          "speaker": "professor"
+        },
+        {
+          "word": "what",
+          "start": 142.502,
+          "end": 142.602,
+          "score": 0.992,
+          "speaker": "professor"
+        },
+        {
+          "word": "does",
+          "start": 142.643,
+          "end": 142.743,
+          "score": 0.768,
+          "speaker": "professor"
+        },
+        {
+          "word": "that",
+          "start": 142.783,
+          "end": 142.883,
+          "score": 0.999,
+          "speaker": "professor"
+        },
+        {
+          "word": "mean",
+          "start": 142.924,
+          "end": 143.164,
+          "score": 0.84,
+          "speaker": "professor"
+        },
+        {
+          "word": "in",
+          "start": 143.345,
+          "end": 143.425,
+          "score": 0.86,
+          "speaker": "professor"
+        },
+        {
+          "word": "terms",
+          "start": 143.445,
+          "end": 143.626,
+          "score": 0.601,
+          "speaker": "professor"
+        },
+        {
+          "word": "of",
+          "start": 143.686,
+          "end": 143.726,
+          "score": 0.584,
+          "speaker": "professor"
+        },
+        {
+          "word": "temperature?",
+          "start": 143.766,
+          "end": 144.228,
+          "score": 0.899,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 147.097,
+      "end": 148.983,
+      "text": "Same, because the internal energy cannot change.",
+      "words": [
+        {
+          "word": "Same,",
+          "start": 147.097,
+          "end": 147.358,
+          "score": 0.947
+        },
+        {
+          "word": "because",
+          "start": 147.398,
+          "end": 147.619,
+          "score": 0.813
+        },
+        {
+          "word": "the",
+          "start": 147.639,
+          "end": 147.699,
+          "score": 0.995
+        },
+        {
+          "word": "internal",
+          "start": 147.739,
+          "end": 148.04,
+          "score": 0.87,
+          "speaker": "professor"
+        },
+        {
+          "word": "energy",
+          "start": 148.08,
+          "end": 148.361,
+          "score": 0.86,
+          "speaker": "professor"
+        },
+        {
+          "word": "cannot",
+          "start": 148.421,
+          "end": 148.682,
+          "score": 0.884,
+          "speaker": "professor"
+        },
+        {
+          "word": "change.",
+          "start": 148.722,
+          "end": 148.983,
+          "score": 0.741,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 149.103,
+      "end": 151.391,
+      "text": "Because delta q is 0, work done is 0.",
+      "words": [
+        {
+          "word": "Because",
+          "start": 149.103,
+          "end": 149.244,
+          "score": 0.043,
+          "speaker": "professor"
+        },
+        {
+          "word": "delta",
+          "start": 149.264,
+          "end": 149.585,
+          "score": 0.855,
+          "speaker": "professor"
+        },
+        {
+          "word": "q",
+          "start": 149.605,
+          "end": 149.806,
+          "score": 0.647,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 149.826,
+          "end": 149.906,
+          "score": 0.674,
+          "speaker": "professor"
+        },
+        {
+          "word": "0,",
+          "start": 149.946,
+          "end": 150.247,
+          "score": 0.901,
+          "speaker": "professor"
+        },
+        {
+          "word": "work",
+          "start": 150.588,
+          "end": 150.809,
+          "score": 0.906,
+          "speaker": "professor"
+        },
+        {
+          "word": "done",
+          "start": 150.849,
+          "end": 150.969,
+          "score": 0.602,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 151.05,
+          "end": 151.09,
+          "score": 0.431,
+          "speaker": "professor"
+        },
+        {
+          "word": "0.",
+          "start": 151.11,
+          "end": 151.391,
+          "score": 0.881,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 151.812,
+      "end": 153.778,
+      "text": "So, in fact, this is a surprise.",
+      "words": [
+        {
+          "word": "So,",
+          "start": 151.812,
+          "end": 151.933,
+          "score": 0.907,
+          "speaker": "professor"
+        },
+        {
+          "word": "in",
+          "start": 152.013,
+          "end": 152.073,
+          "score": 0.998,
+          "speaker": "professor"
+        },
+        {
+          "word": "fact,",
+          "start": 152.193,
+          "end": 152.514,
+          "score": 0.984,
+          "speaker": "professor"
+        },
+        {
+          "word": "this",
+          "start": 153.096,
+          "end": 153.217,
+          "score": 0.994,
+          "speaker": "professor"
+        },
+        {
+          "word": "is",
+          "start": 153.297,
+          "end": 153.337,
+          "score": 0.929,
+          "speaker": "professor"
+        },
+        {
+          "word": "a",
+          "start": 153.357,
+          "end": 153.377,
+          "score": 0.451,
+          "speaker": "professor"
+        },
+        {
+          "word": "surprise.",
+          "start": 153.417,
+          "end": 153.778,
+          "score": 0.753,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    },
+    {
+      "start": 153.819,
+      "end": 156.748,
+      "text": "This gas, when it expands, will be at the same temperature.",
+      "words": [
+        {
+          "word": "This",
+          "start": 153.819,
+          "end": 153.979,
+          "score": 0.865,
+          "speaker": "professor"
+        },
+        {
+          "word": "gas,",
+          "start": 154.059,
+          "end": 154.421,
+          "score": 0.996,
+          "speaker": "professor"
+        },
+        {
+          "word": "when",
+          "start": 155.002,
+          "end": 155.103,
+          "score": 0.992,
+          "speaker": "professor"
+        },
+        {
+          "word": "it",
+          "start": 155.143,
+          "end": 155.183,
+          "score": 0.592,
+          "speaker": "professor"
+        },
+        {
+          "word": "expands,",
+          "start": 155.223,
+          "end": 155.604,
+          "score": 0.872,
+          "speaker": "professor"
+        },
+        {
+          "word": "will",
+          "start": 155.645,
+          "end": 155.785,
+          "score": 0.999,
+          "speaker": "professor"
+        },
+        {
+          "word": "be",
+          "start": 155.805,
+          "end": 155.865,
+          "score": 0.252,
+          "speaker": "professor"
+        },
+        {
+          "word": "at",
+          "start": 155.885,
+          "end": 155.925,
+          "score": 0.514,
+          "speaker": "professor"
+        },
+        {
+          "word": "the",
+          "start": 155.945,
+          "end": 156.026,
+          "score": 0.93,
+          "speaker": "professor"
+        },
+        {
+          "word": "same",
+          "start": 156.066,
+          "end": 156.206,
+          "score": 0.987,
+          "speaker": "professor"
+        },
+        {
+          "word": "temperature.",
+          "start": 156.267,
+          "end": 156.748,
+          "score": 0.888,
+          "speaker": "professor"
+        }
+      ],
+      "speaker": "professor",
+      "corrections": []
+    }
+  ],
+  "qa_points": [
+    {
+      "student_start": 42.5,
+      "student_end": 45.5,
+      "confidence": "low",
+      "signals": [
+        "silence_gap"
+      ],
+      "cue_types": []
+    },
+    {
+      "student_start": 49.5,
+      "student_end": 54.5,
+      "confidence": "low",
+      "signals": [
+        "silence_gap"
+      ],
+      "cue_types": []
+    },
+    {
+      "student_start": 56.5,
+      "student_end": 65.5,
+      "confidence": "high",
+      "signals": [
+        "linguistic",
+        "silence_gap"
+      ],
+      "cue_types": [
+        "responding_to_answer"
+      ]
+    },
+    {
+      "student_start": 78.5,
+      "student_end": 82.0,
+      "confidence": "low",
+      "signals": [
+        "silence_gap"
+      ],
+      "cue_types": []
+    },
+    {
+      "student_start": 84.5,
+      "student_end": 91.0,
+      "confidence": "high",
+      "signals": [
+        "linguistic",
+        "silence_gap"
+      ],
+      "cue_types": [
+        "inviting_question"
+      ]
+    },
+    {
+      "student_start": 100.0,
+      "student_end": 107.0,
+      "confidence": "high",
+      "signals": [
+        "linguistic",
+        "silence_gap"
+      ],
+      "cue_types": [
+        "inviting_question"
+      ]
+    },
+    {
+      "student_start": 108.0,
+      "student_end": 115.0,
+      "confidence": "high",
+      "signals": [
+        "linguistic",
+        "silence_gap"
+      ],
+      "cue_types": [
+        "responding_to_answer"
+      ]
+    },
+    {
+      "student_start": 144.0,
+      "student_end": 147.0,
+      "confidence": "low",
+      "signals": [
+        "silence_gap"
+      ],
+      "cue_types": []
+    }
+  ],
+  "statistics": {
+    "total_segments": 34,
+    "total_words": 348,
+    "total_qa_points": 8,
+    "qa_points_high_confidence": 4,
+    "qa_points_medium_confidence": 0,
+    "qa_points_low_confidence": 4
+  }
+}
